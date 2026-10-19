@@ -13,5 +13,7 @@ const Card = ({ children }) => {
   
   return (
 <div style={cardStyle}></div>
-
+{children}
+    </div>
   );
+}; 
