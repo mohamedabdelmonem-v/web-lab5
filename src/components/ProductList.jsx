@@ -5,7 +5,7 @@ import Product from './Product';
 const ProductList = () => {
 // Static product dataset
   const products = [
-
+{ id: 1, title: "Laptop", price: 1200 },
 
 
   ];
