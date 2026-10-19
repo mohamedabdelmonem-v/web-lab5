@@ -39,7 +39,19 @@ function App() {
         />
       </div>
 
+{/* Dynamic Greeting */}
+      <p style={{ fontWeight: 'bold' }}>Hello, {name || 'Guest'}</p>
 
+      {/* Visibility Toggle Button */}
+      <button 
+        onClick={toggleProducts} 
+        style={{ margin: '15px 0', padding: '10px 15px', cursor: 'pointer' }}
+      >
+        {showProducts ? 'Hide Products' : 'Show Products'}
+      </button>
+
+      {/* Conditional Rendering of Product List */}
+      {showProducts && <ProductList />}
 
 
  </div>
