@@ -6,7 +6,7 @@ const ProductList = () => {
 // Static product dataset
   const products = [
 { id: 1, title: "Laptop", price: 1200 },
-
+ { id: 2, title: "Phone", price: 800 },
 
   ];
 
