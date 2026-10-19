@@ -1,16 +1,16 @@
-# React + Vite
+# React Product Dashboard (Assignment 5)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+A minimal React application built with Vite demonstrating core React principles: component composition, props passing, controlled inputs, conditional rendering, and state management using `useState`.
 
-Currently, two official plugins are available:
+## File Organization
+- `src/App.jsx`: Main root component controlling user input state and list visibility.
+- `src/components/ProductList.jsx`: Contains static data and maps over items using unique keys.
+- `src/components/Product.jsx`: Reusable presentational component for rendering product properties.
+- `src/components/Card.jsx`: Layout wrapper utilizing composition (`children` prop).
+- `README.md`: Explains structure, logic, and challenges faced.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Challenges Faced
+1. **Understanding Composition**: Implementing the `Card` component using `children` properly without tight coupling to product details.
+2. **Controlled Components**: Ensuring smooth state synchronization between the name input field and dynamic paragraph greeting.
+3. **Strict Commit Workflow**: Maintaining a granular commit strategy to comply with the per-file commit requirements.
