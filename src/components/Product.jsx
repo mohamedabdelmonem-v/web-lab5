@@ -6,7 +6,8 @@ const Product = ({ title, price }) => {
     return (
  <Card>
      <h3>{title}</h3>
- </Card>
+         <p>Price: ${price}</p>
+    </Card>
 
          );
 };
