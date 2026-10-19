@@ -11,3 +11,5 @@ const Product = ({ title, price }) => {
 
          );
 };
+
+export default Product;
