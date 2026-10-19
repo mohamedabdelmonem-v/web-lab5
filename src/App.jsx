@@ -28,8 +28,20 @@ function App() {
  <div style={containerStyle}>
       <h1>React Product Dashboard</h1>
 
-
+{/* Controlled Text Input */}
+      <div style={{ marginBottom: '15px' }}>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          value={name}
+          onChange={handleNameChange}
+          style={{ padding: '8px', fontSize: '14px', width: '100%', boxSizing: 'border-box' }}
+        />
       </div>
 
+
+
+
+ </div>
   ); 
 }
