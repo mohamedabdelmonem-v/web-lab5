@@ -12,9 +12,9 @@ const Card = ({ children }) => {
   };
   
   return (
-<div style={cardStyle}></div>
+<div style={cardStyle}>
 {children}
-    </div>
+   </div>
   );
 }; 
 
