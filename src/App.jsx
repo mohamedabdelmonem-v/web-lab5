@@ -25,7 +25,11 @@ function App() {
   };
 
   return (
+ <div style={containerStyle}>
+      <h1>React Product Dashboard</h1>
 
+
+      </div>
 
   ); 
 }
