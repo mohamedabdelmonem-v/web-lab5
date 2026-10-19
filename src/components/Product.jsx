@@ -4,7 +4,9 @@ import Card from './Card';
 // Reusable Presentational Component for displaying single product information
 const Product = ({ title, price }) => {
     return (
- <Card></Card>
+ <Card>
+     <h3>{title}</h3>
+ </Card>
 
          );
 };
