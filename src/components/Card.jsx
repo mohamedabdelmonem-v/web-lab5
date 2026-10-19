@@ -8,3 +8,5 @@ const Card = ({ children }) => {
     padding: '16px',
     margin: '10px 0',
     backgroundColor: '#ffffff',
+ boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+  };
