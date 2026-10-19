@@ -12,6 +12,16 @@ function App() {
     setName(e.target.value);
   };
 
+// Handler for toggle button click
+  const toggleProducts = () => {
+    setShowProducts((prev) => !prev);
+  };
 
+  const containerStyle = {
+    fontFamily: 'Arial, sans-serif',
+    maxWidth: '500px',
+    margin: '40px auto',
+    padding: '20px'
+  };
 
 }
