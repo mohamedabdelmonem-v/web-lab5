@@ -9,5 +9,11 @@ const ProductList = () => {
  { id: 2, title: "Phone", price: 800 },
     { id: 3, title: "Tablet", price: 600 }
   ];
+ return (
+    <div>
 
+
+
+    </div>
+  );
 };
